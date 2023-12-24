@@ -29,6 +29,7 @@ jspm_packages/
 
 # Optional npm cache directory
 .npm
+package-lock.json
 
 # Optional eslint cache
 .eslintcache
@@ -39,7 +40,7 @@ jspm_packages/
 # dotenv environment variables file
 .env
 
-# IDEs and e
+# IDEs and editors
 .idea
 .vscode
 *.suo
