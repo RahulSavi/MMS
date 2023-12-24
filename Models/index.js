@@ -18,7 +18,7 @@ const sequelize = new Sequelize(`postgres://postgres:123456@localhost:5433/disco
     db.sequelize = sequelize
 
 //connecting to model
-db.users = require('./userModel') (sequelize, DataTypes)
+db.users = require('./userModel') (sequelize, DataTypes);
 
 //exporting the module
 module.exports = db

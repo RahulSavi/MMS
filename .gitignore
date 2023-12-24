@@ -39,7 +39,7 @@ jspm_packages/
 # dotenv environment variables file
 .env
 
-# IDEs and editors
+# IDEs and e
 .idea
 .vscode
 *.suo

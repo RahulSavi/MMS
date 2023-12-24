@@ -36,7 +36,7 @@ const signup = async (req, res) => {
      return res.status(409).send("Details are not correct");
    }
  } catch (error) {
-   console.log(error);
+   console.log(error)
  }
 };
 
